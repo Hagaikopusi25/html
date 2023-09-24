@@ -6,336 +6,17 @@
 	
 </head>
 <body>
-<style>
-	
 
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-/*CSS RESET*/
-
-
-
-body {
-	background-color: black;
-	color: whitesmoke;
-	font: normal normal normal 15px/20px arial;
-	
-
-}
-
-
-.container {
-	width: 900px;
-	margin: auto;
-	background-color: darkslategray;
-	padding: 20px;
-	position: relative;
-	box-shadow: 5px 5px 5px 5px lightblue,
-	-5px -5px 5px 5px lightgreen;
-
-
-
-} 
-
-
-.container .header {
-	margin-top: 20px;
-	font: normal normal bold 40px/25px arial;
-
-}
-
-.container .header h1 {
-	font: normal normal bold 40px/50px arial;
-}
-
-
-
-.container ul li {
-	display: inline-block ;
-	font-size: 15px;
-	padding: 5px;
-	padding-bottom:3px;
-	padding-top: 3px;
-	margin-top: 20px;
-	margin-bottom: 10px;
-	border-bottom: 1px solid whitesmoke;
-	border-top: 1px solid whitesmoke;
-}
-
-
-.container .header a {
-	color: darkgray;
-	text-decoration: none;
-
-}
-
-
-
-
-.container .header a:hover {
-	color: white;
-}
-
-
-
-
-
-
-.container ul li.login {
-	margin-left: 450px;
-	border: 1px solid whitesmoke;
-   padding: 8px;
-}
-
-
-.hero {
-  	height: 250px;
-  	width:250px;
-	background-image:url(Hagai.jpg);
-	background-size: cover;
-	background-position: 5px 250px;
-	border: 2px solid white;
-	border-radius: 50%;
-
-
-}
-
-.main {
-	background-color:#008080;
-	padding-bottom: 20px;
-
-}
-
-
-.main .judul {
-	font: normal normal bold 30px/15px arial;
-	margin-top: 10px;
-   padding: 20px;
-}	
-.main .judul p {
-	font: normal normal normal 15px/20px arial;
-	margin-top: 20px ;
-
-}
-
-
-.main2 {
-	background-color:#008080;
-	width: 400px;
-	height: 250px;
-	float: left;
-border: 2px solid white;
-
-
-}
-
-
-
-
-.main2 .judul {
-	font: normal normal bold 30px/30px arial;
-	margin-top: 20px;
-	padding: 20px;
-
-}
-
-.main2 .judul p {
-	font: normal normal normal 15px/20px arial;
-	margin-top: 20px;
-	line-height: 20px;
-
-}
-
-.main3 {
-	
-	width: 400px;
-	height: 200px;
-	float: right;
-	padding-right: 230px;
-
-	
-}
-
-.main3 .judul {
-	font: normal normal bold 20px/30px arial;
-	margin-left: 20px;
-	text-decoration: underline;
-	padding-top: 20px;
-
-
-}
-
-
-.main3 .isi {
-	font: normal normal bold 15px/20px arial;
-	text-align: left;
-	margin-top: 0px;
-	padding-left: 20px;
-	line-height: 30px;
-
-} 
-
-.main4 {
-	
-	background-color:#008080;
-	width: 400px;
-	height: 200px;
-	float: right;
-	padding-right: 70px;
-	padding-bottom: 50px;
-	border: 2px solid white;
-}
-
-.main4 .judul {
-	font: normal normal bold 30px/30px arial;
-	margin-left: 20px;
-	padding-bottom: 10px;
-	padding-top: 50px;
-
-
-}
-
-.main4 .isi {
-	font: normal normal normal 15px/20px arial;
-	text-align: left;
-	margin-top: 0px;
-	padding-left: 20px;
-	line-height: 30px;
-
-} 
-
-.main5 {
-	
-	background-color:#008080;
-	padding-top: 20px;
-	width: 330px;
-	height: 250px;
-	float: left;
-	padding-right: 70px;
-	margin-top: 5px;
-	border: 2px solid white;
-	
-}
-
-.main5 .judul {
-	font: normal normal bold 30px/30px arial;
-	margin-left: 20px;
-	padding-bottom: 10px;
-	padding-top: 25px;
-
-
-}
-
-.main5 .isi {
-	font: normal normal normal 15px/20px arial;
-	text-align: left;
-	padding-left: 20px;
-	line-height: 30px;
-
-} 
-
-.main6 {
-	
-	background-color: #008080;
-	padding-top: 20px;
-	width: 400px;
-	height: 250px;
-	float: right;
-	padding-right: 70px;
-	margin-top: 5px;
-	border: 2px solid white;
-	
-	
-}
-
-.main6 .judul {
-	font: normal normal bold 30px/30px arial;
-	margin-left: 20px;
-	padding-bottom: 10px;
-	padding-top: 25px;
-	text-align: center;
-
-
-}
-
-.main6 .isi {
-	font: normal normal bold 17px/10px arial;
-	text-align: left;
-	
-	padding-left: 20px;
-	line-height: 30px;
-	padding-bottom: 2px;
-
-}
-
-
-
-
-.cf:before,
-.cf:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
-}
-
-.cf:after {
-    clear: both;
-}
-
-
-</style>
 
 
 <br><br>
  <div class="container cf">
  	<div class="header">
  		<h1 class="judul">Selamat datang di website Hagai</h1> 
-
+<img src="Hagai.jpg" width="200px">
  		<ul>
  			<li><a href="#">INSTAGRAM</a></li>
- 			<li><a href="#">FACEBOOK </a></li>
+ 			<li><a href="#">FACEBOOK </a></
  			<li><a href="#">GITHUB</a></li>
  			
  			<li class="login"><a href="#">Login/Signup</a></li>
@@ -400,7 +81,7 @@ border: 2px solid white;
  		<div class="judul">
  			<h2>HOBBY</h2>
  		</div>
- 			<p class="isi">
+ 			<p class="isi"><i>
  				- Playing a music ( guitar, piano, etc)<br>
  				- Traveling<br>
  				- Singing<br>
@@ -414,13 +95,13 @@ border: 2px solid white;
  			<h2>CONTACT </h2>
  		</div>
  			<p class="isi">
- 				<div style="text-align: center">
+ 				<div style="text-align: left;">
  				<a href="https://www.instagram.com/hagaikopusi/"><img src="ins.png" alt="Logo Instagram" width="30" height="30" style="vertical-align: middle;"><span style="vertical-align: middle;">@hagaikopusi</span></a><br></div>
 
- 			&emsp;&emsp;<div style="text-align: center">
+ 			&emsp;&emsp;<div style="text-align: left;">
  				<a href="https://m.facebook.com/hagai.kopusisinulingga/?locale=hi_IN/">&emsp;<img src="fb.png" alt="Logo Facebook" width="30" height="30" style="vertical-align: middle;"><span style="vertical-align: middle;">kopusisinulingga</span></a><br></div>
  				
- 				&emsp;&emsp;<div style="text-align: center">
+ 				&emsp;&emsp;<div style="text-align: left;">
  				<a href="https://web.whatsapp.com/"><img src="ws.png" alt="Logo whatsapp" width="30" height="30" style="vertical-align: middle;"><span style="vertical-align: middle;">083192084379</span></a><br></div>
  				
  				
